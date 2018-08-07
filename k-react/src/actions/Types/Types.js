@@ -1,0 +1,2 @@
+export const AUTHENTICAT = "AUTHENTICAT";
+export const AUTHERIZE = "AUTHERIZE";
