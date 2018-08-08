@@ -3,6 +3,8 @@ import React , { Component } from "react";
 import Courses from "./Courses/Courses";
 import MyCourses from "./MyCourses/MyCourses";
 
+import classes  from "./Student.css"
+
 class Student extends Component {
   state = {
     sgin: true
@@ -21,12 +23,15 @@ class Student extends Component {
     }
     return (
       <React.Fragment>
+      <div className = "menu">
         <p onClick={() => this.pageHandler(true)}>برامجي</p>
         <br />
         <p onClick={() => this.pageHandler(false)}>البرامج التدريبية
         </p>
         <br />
-        {page}
+        
+      </div>
+      {page}
       </React.Fragment>
     );
   }

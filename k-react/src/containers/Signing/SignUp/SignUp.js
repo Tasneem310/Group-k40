@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import classes from "./SignUp.css"
 
@@ -54,7 +55,7 @@ class SignUp extends Component {
         />
         <br />
         <br />
-        <input type="submit" value="Submit" />
+        <Link to="/Student"><input type="submit" value="Sign UP"  /></Link>
 		</div>
       </center>
     );
