@@ -24,28 +24,29 @@ class SignUp extends Component {
   render() {
     return (
       <center>
-        student name:<br />
+	  <div className="signupDiv">
+        <label className="font ">Student Name: &nbsp;</label>
         <input
           type="text"
           onChange={this.nameHandler}
           value={this.state.sName}
         />
         <br />
-        password:<br />
+        <label className="font "> Password:  &nbsp;</label>
         <input
           type="text"
           onChange={this.passHandler}
           value={this.state.pass}
         />
         <br />
-        re-enter password:<br />
+         <label className="font ">Re-enter password:  &nbsp;</label>
         <input
           type="text"
           onChange={this.rePassHandler}
           value={this.state.rePass}
         />
         <br />
-        e-mail:<br />
+         <label className="font ">E-mail:  &nbsp;</label>
         <input
           type="text"
           onChange={this.eMailHandler}
@@ -54,6 +55,7 @@ class SignUp extends Component {
         <br />
         <br />
         <input type="submit" value="Submit" />
+		</div>
       </center>
     );
   }

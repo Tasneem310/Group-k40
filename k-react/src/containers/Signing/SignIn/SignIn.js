@@ -8,10 +8,10 @@ class SignIn extends Component {
       <center className="login_center">
 	  
 	  <div className="signinDiv">
-        <h4 className="font inline ">Student Name:&nbsp; </h4>
+        <label >Student Name:&nbsp; </label>
         <input   align="right" type="text" name="firstname" value="Mickey" />
         <br />
-        <h4 className="font inline">password:&nbsp;</h4>
+        <label >Password:&nbsp;</label>
 		
         <input  align="right" type="password" name="lastname" value="Mouse"  />
 		
