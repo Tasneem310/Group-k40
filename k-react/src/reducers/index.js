@@ -5,9 +5,9 @@ const initialState = {
   user: {},
   MyCourses: [],
   Courses: [
-    { courN: "cours1", trainer: "Trainer1", time: "40days" },
-    { courN: "cours2", trainer: "Trainer2", time: "40days" },
-    { courN: "cours3", trainer: "Trainer3", time: "40days" }
+    { courN: "الدورة الأولى", trainer: "المدرب الأول", time: "أربعون يوما" },
+    { courN: "الدورة الثانية", trainer: "المدرب الثاني", time: "أربعون يوما" },
+    { courN: "الدورة الثالثة", trainer: "المدرب الثالث", time: "أربعون يوما" }
   ],
   isAuthenticated: false,
   authorization: ""

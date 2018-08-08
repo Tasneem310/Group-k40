@@ -1,0 +1,10 @@
+.menu {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    right: .5%;
+    float: right;
+    background-color: rgb(126, 167, 165);
+    color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
+  }

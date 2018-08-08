@@ -2,8 +2,8 @@
     position: fixed;
     top: 1.5%;
     left: 1.5%;
-    background-color: rgb(141, 175, 174);
-    color: bisque;
+    background-color: rgb(223, 230, 230);
+    color: rgba(74, 64, 83);
     width: 77.5%;
     height: 97%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
@@ -12,7 +12,7 @@
 .theShow{
   text-align: right;
   width: 90%;
-  border: 1px solid rgba(255, 228, 196, 0.637);
+  border: 1px solid rgba(74, 64, 83);
   margin: 2%;
   border-radius: 5px;
 }
@@ -20,8 +20,8 @@
 .theShow h3{
   margin: 0;
   padding-right: 1%;
-  background-color: rgba(255, 228, 196, 0.637);
-  color: rgba(74, 64, 83);
+  background-color: rgba(74, 64, 83);
+  color: rgb(223, 230, 230);
   border-radius: 2px;
 }
 
