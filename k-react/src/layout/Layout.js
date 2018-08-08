@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
-const Layout = () => (
-    <React.Fragment>
-        <Link to = "/Admin"><p>it,s working !!</p></Link>
-    </React.Fragment>
-);
+import { connect } from "react-redux";
 
-export default Layout
+import Signing from "../containers/Signing/Signing";
+
+class Layout extends Component {
+  render() {
+    return (
+        <Signing />
+    );
+  }
+}
+
+
+
+export default Layout;

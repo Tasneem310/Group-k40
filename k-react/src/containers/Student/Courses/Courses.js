@@ -1,9 +1,12 @@
 import React from 'react';
+import { connect } from "react-redux";
 
-const Courses = () => (
+const Courses = ( props ) => (
     <React.Fragment>
         
     </React.Fragment>
 );
 
-export default Courses
+
+
+export default connect()(Courses)
