@@ -27,9 +27,9 @@ class Signing extends Component {
       <React.Fragment>
         <div className="menu">
         <img src={Logo} />
-        <p onClick={()=>this.pageHandler(true)}>تسجيل دخول</p>
+        <p onClick={()=>this.pageHandler(true)}>Sign IN</p>
         <br />
-        <p onClick={()=>this.pageHandler(false)}>تسجيل جديد</p>
+        <p onClick={()=>this.pageHandler(false)}>Sign Up</p>
         <br />
         </div>
         {page}
