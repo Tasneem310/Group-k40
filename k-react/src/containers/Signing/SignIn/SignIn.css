@@ -1,0 +1,35 @@
+.login_center{
+	
+}
+.font {
+	font-family:timenewromans;
+	font-size:20pt;
+}
+	
+.inline{
+	display: inline-block;
+}
+
+input{
+	border: 2px solid #B5CB3A;
+    border-radius: 5px;
+	padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=submit]{
+	width: 20%;
+	text-align: center;
+	 padding: 15px 50px;
+	font-family:timenewromans;
+	font-size:15pt;
+	background-color: #01CCC9; 
+	
+}
+
+.signinDiv{
+	padding: 1em;
+    border: 3px solid #525252;
+    border-radius: 1em;
+	width: 1000px;
+}

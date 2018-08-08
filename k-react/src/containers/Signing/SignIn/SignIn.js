@@ -5,15 +5,19 @@ import classes from "./SignIn.css";
 class SignIn extends Component {
   render() {
     return (
-      <center>
-        student name:<br />
-        <input type="text" name="firstname" value="Mickey" />
+      <center className="login_center">
+	  
+	  <div className="signinDiv">
+        <h4 className="font inline ">Student Name:&nbsp; </h4>
+        <input   align="right" type="text" name="firstname" value="Mickey" />
         <br />
-        password:<br />
-        <input type="text" name="lastname" value="Mouse" />
+        <h4 className="font inline">password:&nbsp;</h4>
+		
+        <input  align="right" type="password" name="lastname" value="Mouse"  />
+		
         <br />
-        <br />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Sign In"  />
+		</div >
       </center>
     );
   }
